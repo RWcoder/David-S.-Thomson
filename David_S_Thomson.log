@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.6)  11 JAN 2016 17:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.6)  26 JAN 2016 21:01
 entering extended mode
 **David_S_Thomson.tex
 (C:\Users\David\Desktop\Resume\David_S_Thomson.tex
@@ -222,20 +222,20 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 {C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (C:\Users\David\Desktop\Resume\David_S_Thomson.aux) ) 
 Here is how much of TeX's memory you used:
- 2857 strings out of 493921
- 44962 string characters out of 3144877
+ 2854 strings out of 493921
+ 44938 string characters out of 3144877
  131115 words of memory out of 3000000
  6118 multiletter control sequences out of 15000+200000
- 22735 words of font info for 65 fonts, out of 3000000 for 9000
+ 22576 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 30i,4n,36p,234b,148s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,4n,36p,233b,148s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
 rw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on David_S_Thomson.pdf (1 page, 63292 bytes).
+Output written on David_S_Thomson.pdf (1 page, 63192 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
