@@ -4,73 +4,80 @@
 \usepackage{microtype}
 \usepackage[T1]{fontenc}
 \usepackage{titlesec}
+\usepackage{enumitem}
 %\usepackage{mathpazo}
 \usepackage{tgpagella}
 %\usepackage{times}
 
 \titleformat{\section}
-  {\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.6pt]}]
+
+\setlist[itemize]{itemsep=0.5pt,topsep=5pt}
 
 \linespread{0.7}
 \thispagestyle{empty}
 \setlength\parindent{0pt}
 \headsep=5pt
 
+\newcommand{\pipe}{| }
+
 \begin{document}
 \begin{center}
 \vspace*{0.3em}
 {\huge David S. Thomson} \\
 \vspace*{1em}
-dthomson7@gatech.edu $\vert$ (703) 851-8184
+dthomson7@gatech.edu \pipe (703) 851-8184
 \end{center}
 
 \section*{Education}
 \textbf{Georgia Institute of Technology} \hfill August 2014 - Present
 \begin{itemize}
-\setlength\itemsep{0.5pt}
     \item B.S. in Computer Science, expected graduation: May 2018
     \item GPA: 3.84
     \item Important Courses: Data Structure and Algorithms, Organization and Programming, Calculus III % REMOVE?
 \end{itemize}
 
 \section*{Experience and Activites}
-\textbf{Co-op, Factory Automation Systems} \hfill May 2016 - May 2017
+\textbf{Factory Automation Systems \pipe Co-op} \hfill May 2016 - May 2017
 \begin{itemize}
-\setlength\itemsep{0.5pt}
-    \item Created Human-Machine Interface application to control a GE automated production line, worked with customer on site to test and install.
-    \item Developed GUI application to organize and display data from 70+ employees' Google Calendars to help project managers plan effectively.
-    \item Developed Windows service to periodically read data from a Programmable Logic Controller and store the data in a SQL database.
-    \item Assisted with technical support
+    \item Created Human-Machine Interface application to control a GE automated production line, worked with customer on site to test and install
+    \item Developed GUI application to organize and display data from 70+ employees' Google Calendars to help project managers plan effectively
+    \item Developed Windows service to periodically read data from a Programmable Logic Controller and store the data in a SQL database
+    \item Responsible for resolving technical problems with all co-ops' laptops
 \end{itemize}
 
-\textbf{Undergraduate Teaching Assistant, Georgia Tech} \hfill January - May 2016
+\vspace{3pt}
+
+\textbf{Georgia Tech \pipe Undergraduate Teaching Assistant} \hfill January - May 2016
 \begin{itemize}
-\setlength\itemsep{0.5pt}
     \item Explained key concepts in data structures and algorithms to first and second year students
     \item Led weekly recitations to review course content
     \item Held office hours to help with homework implementations
     \item Proctored and graded tests and quizzes
-    \item Wrote comprehensive unit tests to grade homework assignments
+    \item Wrote comprehensive unit tests to help grade homework assignments
 \end{itemize}
 
-\textbf{Robotics Conference Intern, Atlanta, GA} \hfill May 2015
+\vspace{3pt}
+
+\textbf{AUVSI \pipe Robotics Conference Intern} \hfill May 2015
 \begin{itemize}
-\setlength\itemsep{0.5pt}
     \item Association for Unmanned Vehicle Systems International (AUVSI)'s \emph{Unmanned Systems North America} technical conference and trade show
     \item Supported event logistics and attendee registration for 6,000+ participants and 500+ corporate exhibitors
     \item Assisted with product demonstrations of drones and robotic vehicles
 \end{itemize}
 
-\textbf{Treasurer, Georgia Tech Chamber Choir} \hfill May 2015 - Present
+\vspace{3pt}
+
+\textbf{Georgia Tech Chamber Choir \pipe Treasurer} \hfill May 2015 - Present
 \begin{itemize}
-\setlength\itemsep{0.5pt}
     \item Manage approximately \$5,000 in funds and set a budget for each fiscal year
     \item Maintain extensive financial records for the choir
 \end{itemize}
 
-\textbf{Pi Epsilon Phi, Master of Rituals} \hfill November 2014 - Present
+\vspace{3pt}
+
+\textbf{Pi Epsilon Phi \pipe Master of Rituals} \hfill November 2014 - Present
 \begin{itemize}
-\setlength\itemsep{0.5pt}
     \item Choral service fraternity
     \item Regularly perform service projects to help support the GT Choirs
     \item Role as Master of Rituals includes organizing events and ceremonies
@@ -79,21 +86,22 @@ dthomson7@gatech.edu $\vert$ (703) 851-8184
 \section*{Skills and Projects}
 \textbf{Languages and Software}
 \begin{itemize}
-\setlength\itemsep{0.5pt}
     \item C\#, Git, Java, \LaTeX, Microsoft Office, Python, Visual Basic, VBA
 \end{itemize}
 
+\vspace{3pt}
+
 \textbf{Linear Algebra Computer Project}
 \begin{itemize}
-\setlength\itemsep{0.5pt}
     \item Collaborative course project
     \item Robust implementation in Java of several linear algebra algorithms, including LU and QR factorization, and solving systems using the Jacobi and Gauss-Seidel iterative methods
 \end{itemize}
 
+\vspace{3pt}
+
 \textbf{TeXNotes Project}
 \begin{itemize}
-\setlength\itemsep{0.5pt}
-    \item Desktop application allowing user to easily create skeleton \LaTeX\ documents for note taking.
+    \item Desktop application allowing user to easily create skeleton \LaTeX\ documents for note taking
     \item Writes and compiles a note taking template based on the subject, date, optional packages selected by the user, etc. 
 \end{itemize}
 
