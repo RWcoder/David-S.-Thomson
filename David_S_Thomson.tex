@@ -3,9 +3,13 @@
 \usepackage[margin=0.5in]{geometry}
 \usepackage{microtype}
 \usepackage[T1]{fontenc}
-\usepackage[compact]{titlesec}
-\usepackage{mathpazo}
-%usepackage{tgpagella}
+\usepackage{titlesec}
+%\usepackage{mathpazo}
+\usepackage{tgpagella}
+%\usepackage{times}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
 
 \linespread{0.7}
 \thispagestyle{empty}
@@ -14,17 +18,11 @@
 
 \begin{document}
 \begin{center}
+\vspace*{0.3em}
 {\huge David S. Thomson} \\
 \vspace*{1em}
 dthomson7@gatech.edu $\vert$ (703) 851-8184
 \end{center}
-
-\rule{\textwidth}{.5pt}
-
-\section*{Objective}
-To obtain an internship or co-op in the field of software development in order to enhance my programming skills and to develop professional experience in the software industry.
-
-\rule{\textwidth}{.5pt}
 
 \section*{Education}
 \textbf{Georgia Institute of Technology} \hfill August 2014 - Present
@@ -35,32 +33,24 @@ To obtain an internship or co-op in the field of software development in order t
     \item Important Courses: Data Structure and Algorithms, Organization and Programming, Calculus III % REMOVE?
 \end{itemize}
 
-\textbf{St. Stephens \& St. Agnes School} \hfill September 2010 - May 2014
-\begin{itemize}
-\setlength\itemsep{0.5pt}
-    \item College Preparatory High School
-    \item Consistently achieved Head's List (95\% average or higher)
-\end{itemize}
-
-\rule{\textwidth}{.5pt}
-
 \section*{Experience and Activites}
 \textbf{Co-op, Factory Automation Systems} \hfill May 2016 - May 2017
 \begin{itemize}
 \setlength\itemsep{0.5pt}
-    \item Created and installed Human-Machine Interface application for GE automated production line
+    \item Created Human-Machine Interface application to control a GE automated production line, worked with customer on site to test and install.
+    \item Developed GUI application to organize and display data from 70+ employees' Google Calendars to help project managers plan effectively.
     \item Developed Windows service to periodically read data from a Programmable Logic Controller and store the data in a SQL database.
-    \item Developed GUI application to retrieve data from employees' Google Calendar and determine employees who are out of the office, looking for work, etc., to help project managers.
+    \item Assisted with technical support
 \end{itemize}
 
 \textbf{Undergraduate Teaching Assistant, Georgia Tech} \hfill January - May 2016
 \begin{itemize}
 \setlength\itemsep{0.5pt}
-    \item Explain key concepts in data structures and algorithms to first and second year students
-    \item Lead weekly recitations to review course content
-    \item Hold office hours to help with homework implementations
-    \item Proctor and grade tests and quizzes
-    \item Write comprehensive unit tests to grade homework assignments
+    \item Explained key concepts in data structures and algorithms to first and second year students
+    \item Led weekly recitations to review course content
+    \item Held office hours to help with homework implementations
+    \item Proctored and graded tests and quizzes
+    \item Wrote comprehensive unit tests to grade homework assignments
 \end{itemize}
 
 \textbf{Robotics Conference Intern, Atlanta, GA} \hfill May 2015
@@ -85,8 +75,6 @@ To obtain an internship or co-op in the field of software development in order t
     \item Regularly perform service projects to help support the GT Choirs
     \item Role as Master of Rituals includes organizing events and ceremonies
 \end{itemize}
-
-\rule{\textwidth}{.5pt}
 
 \section*{Skills and Projects}
 \textbf{Languages and Software}
