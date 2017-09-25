@@ -1,9 +1,9 @@
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 
 \usepackage[margin=0.5in]{geometry}
 \usepackage{microtype}
 \usepackage[T1]{fontenc}
-\usepackage{titlesec}
+\usepackage[compact]{titlesec}
 \usepackage{enumitem}
 %\usepackage{mathpazo}
 \usepackage{tgpagella}
@@ -12,19 +12,21 @@
 \titleformat{\section}
   {\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.6pt]}]
 
-\setlist[itemize]{itemsep=0.5pt,topsep=5pt}
+\setlist[itemize]{itemsep=-3pt,topsep=3pt}
 
-\linespread{0.7}
+\linespread{0.9}
 \thispagestyle{empty}
 \setlength\parindent{0pt}
 \headsep=5pt
+
+\lineskiplimit=-999pt\relax
 
 \newcommand{\pipe}{| }
 
 \begin{document}
 \begin{center}
 \vspace*{0.3em}
-{\huge David S. Thomson} \\
+{\huge David Thomson} \\
 \vspace*{1em}
 dthomson7@gatech.edu \pipe (703) 851-8184
 \end{center}
@@ -32,16 +34,18 @@ dthomson7@gatech.edu \pipe (703) 851-8184
 \section*{Education}
 \textbf{Georgia Institute of Technology} \hfill August 2014 - Present
 \begin{itemize}
-    \item B.S. in Computer Science, expected graduation: May 2018
+    \item B.S. in Computer Science
+    \item Expected graduation: May 2018
     \item GPA: 3.84
-    \item Important Courses: Data Structure and Algorithms, Organization and Programming, Calculus III % REMOVE?
+    \item Concentration: Information Internetworks, Intelligence
 \end{itemize}
 
-\section*{Experience and Activites}
+\section*{Experience}
 \textbf{Factory Automation Systems \pipe Co-op} \hfill May 2016 - May 2017
 \begin{itemize}
     \item Created Human-Machine Interface application to control a GE automated production line, worked with customer on site to test and install
-    \item Developed GUI application to organize and display data from 70+ employees' Google Calendars to help project managers plan effectively
+    
+    \item Developed WPF desktop application to organize and display data from 70+ employees' Google Calendars to help project managers plan effectively
     \item Developed Windows service to periodically read data from a Programmable Logic Controller and store the data in a SQL database
     \item Responsible for resolving technical problems with all co-ops' laptops
 \end{itemize}
@@ -66,43 +70,36 @@ dthomson7@gatech.edu \pipe (703) 851-8184
     \item Assisted with product demonstrations of drones and robotic vehicles
 \end{itemize}
 
-\vspace{3pt}
+\section*{Activities}
 
-\textbf{Georgia Tech Chamber Choir \pipe Treasurer} \hfill May 2015 - Present
+\textbf{Georgia Tech Chamber Choir \pipe Treasurer} \hfill May 2015 - May 2016
 \begin{itemize}
-    \item Manage approximately \$5,000 in funds and set a budget for each fiscal year
-    \item Maintain extensive financial records for the choir
+    \item Managed approximately \$5,000 in funds and set a budget for the fiscal year
+    \item Accepted donations, collected membership dues, and maintained financial records for the choir
 \end{itemize}
 
 \vspace{3pt}
 
-\textbf{Pi Epsilon Phi \pipe Master of Rituals} \hfill November 2014 - Present
+\textbf{Pi Epsilon Phi \pipe Treasurer} \hfill November 2014 - Present
 \begin{itemize}
     \item Choral service fraternity
     \item Regularly perform service projects to help support the GT Choirs
     \item Role as Master of Rituals includes organizing events and ceremonies
 \end{itemize}
 
-\section*{Skills and Projects}
-\textbf{Languages and Software}
+\section*{Skills}
+\textbf{Languages}
 \begin{itemize}
-    \item C\#, Git, Java, \LaTeX, Microsoft Office, Python, Visual Basic, VBA
+    \item C\#, Java, \LaTeX, Python, Visual Basic, VBA
 \end{itemize}
 
 \vspace{3pt}
 
-\textbf{Linear Algebra Computer Project}
+\textbf{Development Tools}
 \begin{itemize}
-    \item Collaborative course project
-    \item Robust implementation in Java of several linear algebra algorithms, including LU and QR factorization, and solving systems using the Jacobi and Gauss-Seidel iterative methods
+    \item Git, Intellij, Visual Studio, Microsoft SQL Server, JUnit
 \end{itemize}
 
-\vspace{3pt}
-
-\textbf{TeXNotes Project}
-\begin{itemize}
-    \item Desktop application allowing user to easily create skeleton \LaTeX\ documents for note taking
-    \item Writes and compiles a note taking template based on the subject, date, optional packages selected by the user, etc. 
-\end{itemize}
+\section*{Projects}
 
 \end{document}
